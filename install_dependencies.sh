@@ -1,11 +1,9 @@
 #!/bin/bash
 
 # Update package lists
-sudo apt-get update
-
+sudo apt update
 # Install Apache HTTP server
-sudo apt-get install -y apache2
-
+sudo apt install apache2
 # Create a simple HTML file
 echo '<!DOCTYPE html>
 <html lang="en">
